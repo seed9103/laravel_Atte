@@ -1,7 +1,7 @@
-Atte
+#Atte
 勤怠管理システム
 
-ページ一覧
+##ページ一覧
 
 内容 | パス 
 --- | --- 
@@ -12,24 +12,24 @@ Atte
 
 ##機能一覧
 
-機能 |  
---- | --- 
-会員登録| Laravelの認証機能（Fortify）を利用
-ログイン |
-ログアウト |
-勤務開始　|
-勤務終了|
-休憩開始 |1日で何度も休憩が可能
-休憩終了 |
-ページネーション　|5件ずつ取得
+|機能 | 詳細 |
+|--- | --- |
+|会員登録| Laravelの認証機能（Fortify）を利用|
+|ログイン ||
+|ログアウト ||
+|勤務開始　||
+|勤務終了||
+|休憩開始 |1日で何度も休憩が可能|
+|休憩終了 ||
+|ページネーション　|5件ずつ取得|
 
-テーブル設計
-(https://github.com/seed9103/laravel_Atte/assets/154680643/4a98f5d7-a0ec-4491-8d23-2d978d359d9e)
+##テーブル設計
+![table](https://github.com/seed9103/laravel_Atte/assets/154680643/6be5e1b6-47a0-40ec-a15c-0f67be085ae1)
 
-ER図
-(https://github.com/seed9103/laravel_Atte/assets/154680643/136e379b-5372-4298-a2fd-1003c676f6f8)
+##ER図
+![alt](.dio)
 
-環境構築
+##環境構築
 
 Dockerビルド
 1.`git@github.com:seed9103/laravel_Atte.git`
@@ -60,11 +60,11 @@ php artisan migrate
 php artisan db:seed
 ```
 
-使用技術
+##使用技術
 - PHP 7.4.9
 - Laravel8.83.27
 - MySQL8.0.26
 
-URL
+##URL
 - 開発環境：http://localhost/
 - phpMyAdmin:：http://localhost:8080/
