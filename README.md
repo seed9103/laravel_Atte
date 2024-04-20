@@ -1,14 +1,14 @@
-#Atte
+Atte
 勤怠管理システム
 
-##ページ一覧
+ページ一覧
 
 内容 | パス 
 --- | --- 
-打刻ページ| /
-会員登録ページ | /register
-ログインページ | /login
-日付別勤怠ページ　|　/attendance
+打刻ページ|/
+会員登録ページ |/register
+ログインページ |/login
+日付別勤怠ページ　|/attendance
 
 ##機能一覧
 
@@ -23,13 +23,13 @@
 休憩終了 |
 ページネーション　|5件ずつ取得
 
-####テーブル設計
+テーブル設計
 (https://github.com/seed9103/laravel_Atte/assets/154680643/4a98f5d7-a0ec-4491-8d23-2d978d359d9e)
 
-##ER図
+ER図
 (https://github.com/seed9103/laravel_Atte/assets/154680643/136e379b-5372-4298-a2fd-1003c676f6f8)
 
-##環境構築
+環境構築
 
 Dockerビルド
 1.`git@github.com:seed9103/laravel_Atte.git`
@@ -57,16 +57,14 @@ php artisan migrate
 ```
 6.シーディング
 ``` bash
-php artisan migrate
+php artisan db:seed
 ```
 
-##使用技術
+使用技術
 - PHP 7.4.9
 - Laravel8.83.27
 - MySQL8.0.26
 
-##URL
+URL
 - 開発環境：http://localhost/
 - phpMyAdmin:：http://localhost:8080/
-
-# laravel_Atte
