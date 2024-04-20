@@ -24,10 +24,10 @@
 |ページネーション　|5件ずつ取得|
 
 ##テーブル設計
-![table](https://github.com/seed9103/laravel_Atte/assets/154680643/6be5e1b6-47a0-40ec-a15c-0f67be085ae1)
+![table](https://github.com/seed9103/laravel_Atte/assets/154680643/c9e4e577-e595-4ab1-9947-987809a723c1)
 
 ##ER図
-![alt](.dio)
+![ER](https://github.com/seed9103/laravel_Atte/assets/154680643/3746872f-5885-4b6a-8551-d34eef55b7fe)
 
 ##環境構築
 
